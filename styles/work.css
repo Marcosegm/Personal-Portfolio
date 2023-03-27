@@ -14,7 +14,7 @@
 .grid-section {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px,400px));
+    grid-template-columns: repeat(auto-fit, minmax(315px,400px));
     grid-gap: 40px;
     justify-content: center;
     padding: 25px 0;
@@ -24,11 +24,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 15px;
 }
 .project-image {
     width: 100%;
     max-width: 400px;
-    min-width: 320px;
     height: 300px;
     object-fit: cover;
     border-bottom: 4px solid #fb8500;
