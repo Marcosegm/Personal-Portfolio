@@ -1,0 +1,34 @@
+.navbar-section {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--background-color2);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 40%);
+    z-index: 10;
+}
+.navbar-section ul {
+    width: 270px;
+    height: 100%;
+    margin-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    place-items: center;
+}
+.navbar-text {
+    color: var(--text-color1);
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.navbar-text:hover {
+    color: #fb8500;
+}
+
+@media (max-width:425px) {
+    .navbar-section {
+        display: none;
+    }
+}

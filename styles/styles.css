@@ -1,0 +1,31 @@
+:root {
+    --background-color1: linear-gradient(62deg, #284b63 0%, #181719 100%);
+    --background-color2: #fca311; 
+    --background-color3: #000000; 
+    --text-color1: #f0f0f0;
+    --text-color2: #d9d9d9;
+    --text-color3: #fca311;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--text-color1);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+ul {
+    list-style: none;
+}

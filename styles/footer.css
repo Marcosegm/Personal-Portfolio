@@ -1,0 +1,16 @@
+.footer-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    border-top: 5px solid #fb8500;
+}
+.footer-text {
+    color: var(--text-color1);
+    text-align: center;
+    font-size: 2.0rem;
+    font-weight: bolder;
+}
