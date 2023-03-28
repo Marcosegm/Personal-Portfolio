@@ -46,3 +46,8 @@
     color: red;
     transition: all 0.8s ease;
 }
+@media (max-width: 425px){
+    .projects-section-header{
+        font-size: 3rem;
+    }
+}

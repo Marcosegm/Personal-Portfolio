@@ -48,3 +48,8 @@
         margin: 15px;
     }
 }
+@media (max-width: 425px) {
+    .contact-section-header h2 {
+        font-size: 4.4rem;
+    }
+}
