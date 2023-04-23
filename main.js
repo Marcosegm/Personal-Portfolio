@@ -5,9 +5,12 @@ const CrearNuevoProyecto = (urlDemo, urlImage, urlRepository, projectName) => {
     card.classList.add('card-container')
     const contenido = 
         `
-        <a  href="${urlDemo}" target="_blank" ><img class="project-image" src="${urlImage}" alt="project" /></a>
-        <a href="${urlRepository}" target="_blank"><p class="project-title"> <span class="code">&lt;</span>${projectName}<span class="code">&#47;&gt;</span></p></a>
-
+        <h2 class="project-title"><span class="code">&lt;</span> ${projectName} <span class="code">&#47;&gt;</span></h2>
+        <img class="project-image" src="${urlImage}" alt="">
+        <div class="btn-container">
+            <span class="btn btn-primary"> <a href="${urlDemo}">Demo</a> </span>
+            <span class="btn btn-secundary"><a  href="${urlRepository}">Repository</a></span>
+        </div>
         `;
     card.innerHTML = contenido;
     return card
