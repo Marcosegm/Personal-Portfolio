@@ -30,12 +30,19 @@ const infoProjects = {
             "urlRepository": "https://github.com/Marcosegm/Mobile-first",
             "projectName" : "Batatabit"
         },
+        {
+            "urlDemo": "https://org-marcosguzman.vercel.app",
+            "urlImage": "https://live.staticflickr.com/65535/52840101681_e6d9be0197_w.jpg",
+            "urlRepository": "https://github.com/Marcosegm/Org",
+            "projectName" : "Org"
+        },
         // {
         //     "urlDemo": "",
         //     "urlImage": "hppt",
         //     "urlRepository": "",
         //     "projectName" : ""
         // },
+
     ] 
 }
 
