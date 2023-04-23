@@ -8,8 +8,8 @@ const CrearNuevoProyecto = (urlDemo, urlImage, urlRepository, projectName) => {
         <h2 class="project-title"><span class="code">&lt;</span> ${projectName} <span class="code">&#47;&gt;</span></h2>
         <img class="project-image" src="${urlImage}" alt="">
         <div class="btn-container">
-            <span class="btn btn-primary"> <a href="${urlDemo}">Demo</a> </span>
-            <span class="btn btn-secundary"><a  href="${urlRepository}">Repository</a></span>
+            <span class="btn btn-primary"> <a href="${urlDemo}" target="_blank">Demo</a> </span>
+            <span class="btn btn-secundary"><a  href="${urlRepository}" target="_blank">Repository</a></span>
         </div>
         `;
     card.innerHTML = contenido;

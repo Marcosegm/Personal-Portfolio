@@ -36,7 +36,7 @@
 .project-image {
     width: 100%;
     max-width: 400px;
-    height: 300px;
+    height: 250px;
     object-fit: cover;
     border-bottom: 6px solid #fb8500;
 }
@@ -54,6 +54,7 @@
     height: 35px;
     margin: 10px;
     border-radius: 5px;
+    cursor: pointer;
     
 }
 .btn-primary {
@@ -64,10 +65,10 @@
     font-weight: bold;
 }
 .btn-secundary {
-    border: 2px solid #fc6c0f;
+    border: 2px solid #fb8500;
 }
 .btn-secundary a {
-    color: #fc6c0f;
+    color: white;
     font-weight: bold;
 }
 .code {
