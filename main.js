@@ -19,7 +19,7 @@ const infoProjects = {
             "urlDemo": "https://marcosegm.github.io/AluraGeek/screens/aluraGeek.html",
             "urlImage": "https://live.staticflickr.com/65535/52776165470_e77484fc11_z.jpg",
             "urlRepository": "https://github.com/Marcosegm/AluraGeek",
-            "projectName" : "ALURA GEEK"
+            "projectName" : "Alura Geek"
         },
         {
             "urlDemo": "https://marcosegm.github.io/Mobile-first/",
