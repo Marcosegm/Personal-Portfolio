@@ -6,7 +6,7 @@ const CrearNuevoProyecto = (urlDemo, urlImage, urlRepository, projectName) => {
     const contenido = 
         `
         <h2 class="project-title"><span class="code">&lt;</span> ${projectName} <span class="code">&#47;&gt;</span></h2>
-        <img class="project-image" src="${urlImage}" alt="">
+        <img class="project-image" src="${urlImage}" alt="Imagen del proyecto">
         <div class="btn-container">
             <span class="btn btn-primary"> <a href="${urlDemo}" target="_blank">Demo</a> </span>
             <span class="btn btn-secundary"><a  href="${urlRepository}" target="_blank">Repository</a></span>
@@ -20,7 +20,7 @@ const infoProjects = {
     "projects": [
         {
             "urlDemo": "https://marcosegm.github.io/AluraGeek/screens/aluraGeek.html",
-            "urlImage": "https://live.staticflickr.com/65535/52776165470_e77484fc11_z.jpg",
+            "urlImage": "https://live.staticflickr.com/65535/52775763896_a8688e6c3f_w.jpg",
             "urlRepository": "https://github.com/Marcosegm/AluraGeek",
             "projectName" : "Alura Geek"
         },
@@ -35,6 +35,12 @@ const infoProjects = {
             "urlImage": "https://live.staticflickr.com/65535/52840101681_e6d9be0197_w.jpg",
             "urlRepository": "https://github.com/Marcosegm/Org",
             "projectName" : "Org"
+        },
+        {
+                "urlDemo": "https://marcosegm.github.io/Clon-de-Google/",
+                "urlImage": "https://live.staticflickr.com/65535/52873151504_d1d4cb361b_z.jpg",
+                "urlRepository": "https://github.com/Marcosegm/Clon-de-Google",
+                "projectName" : "Google clon"
         },
         // {
         //     "urlDemo": "",
