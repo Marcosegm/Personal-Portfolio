@@ -2,9 +2,11 @@
     --background-color1: linear-gradient(62deg, #284b63 0%, #181719 100%);
     --background-color2: #fca311; 
     --background-color3: #000000; 
+    --background-color4: #284b63;
     --text-color1: #f0f0f0;
     --text-color2: #d9d9d9;
     --text-color3: #fca311;
+    --texto-color4: #cccccc;
 }
 * {
     box-sizing: border-box;

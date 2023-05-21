@@ -30,10 +30,13 @@
     margin-right: 10px;
     color: var(--background-color1);
 }
+.contact-details {
+    transition: all 0.5s ease;
+}
+
 .contact-details:hover {
     color: #fb8500;
     transform: translateY(-20px);
-    transition: all 0.3s ease;
 }
 
 @media (max-width: 768px) {
