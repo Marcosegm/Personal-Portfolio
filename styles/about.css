@@ -18,9 +18,6 @@
     font-weight: bold;
 }
 @media (max-width:425px) {
-    .about-section {
-        height: 50vh;
-    }
     .about-section h1 {
         text-align: center;
     }

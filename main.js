@@ -42,9 +42,15 @@ const infoProjects = {
                 "urlRepository": "https://github.com/Marcosegm/Clon-de-Google",
                 "projectName" : "Google clon"
         },
+        {
+            "urlDemo": "https://todolistmg.vercel.app",
+            "urlImage": "https://live.staticflickr.com/65535/52912592402_bf22c6ee0f_w.jpg",
+            "urlRepository": "https://github.com/Marcosegm/ToDoList",
+            "projectName" : "ToDo List"
+        },
         // {
         //     "urlDemo": "",
-        //     "urlImage": "hppt",
+        //     "urlImage": "",
         //     "urlRepository": "",
         //     "projectName" : ""
         // },
